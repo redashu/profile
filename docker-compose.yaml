@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ashu-app:
+    image: karan-profile:v$BUILD_NUMBER
+    build: .
+    container_name: k1
+    ports:
+    - 1233:80 
+    restart: always 
